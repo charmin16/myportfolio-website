@@ -21,7 +21,7 @@ const AboutMe = () => {
         <p className="md:text-4xl sm:text-2xl text-xl text-white font-bold font-libre md:pb-3">About Me</p>
         <div className='line w-[4em] h-[0.5em] bg-green-500'></div>
         <div className='flex flex-col-reverse items-center md:items-start md:flex-row md:space-x-16 md:space-y-0'>       
-              <p className='text-white md:opacity-90 opacity-70 md:leading-6 md:tracking-wide pt-6 md:pt-0 
+              <p className='text-white md:opacity-90 md:leading-6 md:tracking-wide pt-6 md:pt-0 
               text-justify text-md max-w-[55%] font-serif md:mt-6'>
                 Hello, I am Charming. I obtained a Bachelors in Electrical and Electronics 
                 Engineering from the University of East London, but because I have always been 
@@ -49,10 +49,10 @@ const AboutMe = () => {
        </div>}
        
        {/* About me section phone and small screen  */}
-       {showAboutMe && <div id="mobile-container" className='md:hidden text-white'>
+       {showAboutMe && <div id="mobile-container" className='lg:hidden text-white'>
         <div id='img-cont' className="w-[90%] mx-auto relative flex justify-center items-center bg-gray-400">
-           <img id='myphoto' src="retry 2.jpg" alt="" className='rounded-l-xl w-[50%] 
-           h-[15em] border sm:w-[27em] sm:h-[16em] border-x-8 my-8 sm:my-8 border-[#c708a4]' />
+           <img id='myphoto' src="retry 2.jpg" alt="" className='rounded-l-xl w-[30%] 
+           h-[15em] border sm:w-[30em] sm:h-[16em] border-x-8 my-8 sm:my-8 border-[#c708a4]' />
            {/* <div className="absolute w-[13.5em] h-[15em] border-4 border-[#c708a4] top-[15%] left-[26%] "></div> */}
            
         </div>
@@ -60,7 +60,7 @@ const AboutMe = () => {
             <div className='max-w-[90%] mx-auto py-12'>
                 <p id='about' className="text-3xl font-bold pb-3 font-libre text-center">About Me</p>
                  <div className='line w-[4em] h-[0.5em] bg-green-500 mx-auto'></div>
-                <p className='text-justify font-libre mt-4 text-lg'>
+                <p className='text-justify font-libre mt-4 text-md'>
                     Hello, I am Charming. I obtained a Bachelors Degree in Electrical and Electronics 
                     Engineering from the University of East London, but because I have always been 
                     fascinated by technology and the diverse ways it has positively impacted our world, 
