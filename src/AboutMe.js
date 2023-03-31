@@ -60,7 +60,7 @@ const AboutMe = () => {
             <div className='max-w-[90%] mx-auto py-12'>
                 <p id='about' className="text-3xl font-bold pb-3 font-libre text-center">About Me</p>
                  <div className='line w-[4em] h-[0.5em] bg-green-500 mx-auto'></div>
-                <p className='font-libre mt-4 text-md'>
+                <p className='text-justify font-libre mt-4 text-md opacity-70'>
                     Hello, I am Charming. I obtained a Bachelors Degree in Electrical and Electronics 
                     Engineering from the University of East London, but because I have always been 
                     fascinated by technology and the diverse ways it has positively impacted our world, 
