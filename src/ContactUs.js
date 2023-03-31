@@ -9,8 +9,8 @@ const ContactUs = () => {
                 <div className="relative w-[100%]">
                     <img src="laptop/laptop4.avif" className='max-h-[20em] w-[100%]' /> 
                     <div className="absolute top-[25%] md:top-[40%] left-[15%] md:left-[25%] text-center space-y-2">
-                        <p className='md:text-4xl text-2xl font-bold tracking-widest text-gray-900'>Contact Us</p>
-                        <p className='text-gray-900 md:text-2xl text-xl font-bold'>Feel free to drop us a line below..</p>
+                        <p className='md:text-4xl text-3xl font-bold tracking-widest text-gray-900'>Contact Us</p>
+                        <p className='text-black lg:px-2 text-2xl px-8 font-bold'>Feel free to drop us a line below..</p>
                     </div>
                 </div>
         
