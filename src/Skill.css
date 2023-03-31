@@ -1,0 +1,137 @@
+/* .skills {
+    color: white;
+    background-color: black;
+}
+
+.skills .skills-cont {
+    width: 90%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.skills-cont div {
+    height: 15vh;
+    text-align: center;
+    padding: 0 0.73em;
+    margin-bottom: 3em;
+    background-color: #333;
+    box-shadow: 0.1em 0.1em 1em 0.1em gray;
+    border-radius: 1em;
+    transition: all 2s;
+}
+
+.skills-cont div:hover {
+    background-color: skyblue;
+    transform: scaleY(1.1)
+}
+
+.skills-cont i {
+    padding: 0.35em 0;
+    font-size: 2.5em;
+    color: red;
+} */
+
+.skillz {
+    /* background-color: black; */
+}
+
+.skillz .skil {
+    /* background-color: white; */
+    width: 60%;
+    margin: 4em auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.skil .skill-contr {
+    /* background-color: green; */
+    width: 45%;
+}
+
+.skill-contr .skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding-left: 3.5em; */
+    gap: 1em;
+}
+
+.skill-contr h2 {
+    font-size: 2em;
+    border-bottom: 4px solid white;
+    padding-bottom: 0.3em;
+    padding-top: 0.75em;
+    margin-bottom: 1.25em;
+    /* margin-left: 2em; */
+    color: white;
+}
+
+.skill-contr .skill-grid div {
+    background-color: green;
+    color: white;
+    /* text-align: center; */
+    /* background-color: #333; */
+    /* box-shadow: 0.1em 0.1em 1em 0.1em gray; */
+    border-radius: 1em;
+    transition: all 2s;
+    height: 12vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-grid i {
+    font-size: 1.5em;
+    /* padding-top: 0.2em; */
+}
+
+.skill-grid p {
+    padding-top: 0.5em;
+}
+
+.tools-contr {
+    /* background-color: red; */
+    width: 45%;
+}
+
+.tools-contr h2 {
+    font-size: 2em;
+    border-bottom: 4px solid white;
+    padding-bottom: 0.3em;
+    padding-top: 0.75em;
+    margin-bottom: 1.25em;
+    margin-right: 1em;
+    color: white;
+}
+
+.tools-contr .tool-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.tools-contr .tool-grid div {
+    background-color: green;
+    color: white;
+    border-radius: 1em;
+    transition: all 2s;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+    height: 12vh;
+}
+
+.tools-contr .tool-grid div p {
+    padding-top: 0.4em;
+}
+
+.tools-contr .tool-grid div i {
+    font-size: 2em;
+}
