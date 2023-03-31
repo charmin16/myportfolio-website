@@ -51,7 +51,7 @@ const AboutMe = () => {
        {/* About me section phone and small screen  */}
        {showAboutMe && <div id="mobile-container" className='lg:hidden text-white'>
         <div id='img-cont' className="w-[90%] mx-auto relative flex justify-center items-center bg-gray-400">
-           <img id='myphoto' src="retry 2.jpg" alt="" className='rounded-l-xl w-[30%] 
+           <img id='myphoto' src="retry 2.jpg" alt="" className='rounded-l-xl w-[70%] 
            h-[15em] border sm:w-[30em] sm:h-[16em] border-x-8 my-8 sm:my-8 border-[#c708a4]' />
            {/* <div className="absolute w-[13.5em] h-[15em] border-4 border-[#c708a4] top-[15%] left-[26%] "></div> */}
            
@@ -60,7 +60,7 @@ const AboutMe = () => {
             <div className='max-w-[90%] mx-auto py-12'>
                 <p id='about' className="text-3xl font-bold pb-3 font-libre text-center">About Me</p>
                  <div className='line w-[4em] h-[0.5em] bg-green-500 mx-auto'></div>
-                <p className='text-justify font-libre mt-4 text-md'>
+                <p className='font-libre mt-4 text-md'>
                     Hello, I am Charming. I obtained a Bachelors Degree in Electrical and Electronics 
                     Engineering from the University of East London, but because I have always been 
                     fascinated by technology and the diverse ways it has positively impacted our world, 
@@ -71,7 +71,7 @@ const AboutMe = () => {
                     beautiful, responsive websites and web applications.
                     I have worked for a couple of organizations and I have also done 
                     a lot of freelance jobs for clients all over the world. 
-                    <br />
+                    <br /><br />
                     When I am not on my computer writing codes then you will probably find me on 
                     my chessboard or in a swimming pool. I do have a life outside programming.
                     I love chess, I love swimming and I indulge in some other social activities 
