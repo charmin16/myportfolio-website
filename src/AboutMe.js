@@ -21,8 +21,8 @@ const AboutMe = () => {
         <p className="md:text-4xl sm:text-2xl text-xl text-white font-bold font-libre md:pb-3">About Me</p>
         <div className='line w-[4em] h-[0.5em] bg-green-500'></div>
         <div className='flex flex-col-reverse items-center md:items-start md:flex-row md:space-x-16 md:space-y-0'>       
-              <p className='text-white opacity-90 md:leading-6 md:tracking-wide pt-6 md:pt-0 
-              text-justify text-lg max-w-[55%] font-serif md:mt-6'>
+              <p className='text-white md:opacity-90 opacity-70 md:leading-6 md:tracking-wide pt-6 md:pt-0 
+              text-justify text-md max-w-[55%] font-serif md:mt-6'>
                 Hello, I am Charming. I obtained a Bachelors in Electrical and Electronics 
                 Engineering from the University of East London, but because I have always been 
                 fascinated by technology and the diverse ways it has positively impacted our world 
@@ -52,7 +52,7 @@ const AboutMe = () => {
        {showAboutMe && <div id="mobile-container" className='md:hidden text-white'>
         <div id='img-cont' className="w-[90%] mx-auto relative flex justify-center items-center bg-gray-400">
            <img id='myphoto' src="retry 2.jpg" alt="" className='rounded-l-xl w-[50%] 
-           h-[15em] border sm:w-[22em] sm:h-[16em] border-x-8 my-8 sm:my-12 border-[#c708a4]' />
+           h-[15em] border sm:w-[27em] sm:h-[16em] border-x-8 my-8 sm:my-8 border-[#c708a4]' />
            {/* <div className="absolute w-[13.5em] h-[15em] border-4 border-[#c708a4] top-[15%] left-[26%] "></div> */}
            
         </div>
@@ -61,12 +61,12 @@ const AboutMe = () => {
                 <p id='about' className="text-3xl font-bold pb-3 font-libre text-center">About Me</p>
                  <div className='line w-[4em] h-[0.5em] bg-green-500 mx-auto'></div>
                 <p className='text-justify font-libre mt-4 text-lg'>
-                    Hello, I am Charming. I obtained a Bachelors in Electrical and Electronics 
+                    Hello, I am Charming. I obtained a Bachelors Degree in Electrical and Electronics 
                     Engineering from the University of East London, but because I have always been 
                     fascinated by technology and the diverse ways it has positively impacted our world, 
                     I decided to venture into the captivating world of technology. 
                     I have acquired my skills through different forms of trainings(virtual & in-person), 
-                    bootcamp, online and physical tech communities, etc.
+                    bootcamps, online and physical tech communities, etc.
                     Today, I'm  a frontend developer with a passion for creating 
                     beautiful, responsive websites and web applications.
                     I have worked for a couple of organizations and I have also done 
@@ -75,7 +75,7 @@ const AboutMe = () => {
                     When I am not on my computer writing codes then you will probably find me on 
                     my chessboard or in a swimming pool. I do have a life outside programming.
                     I love chess, I love swimming and I indulge in some other social activities 
-                    when I want to relax and clear my head
+                    when I want to relax and clear my head.
                     <br />
                     I do want to sincerely thank you for stopping by and definitely looking forward 
                     to hearing from you soon.

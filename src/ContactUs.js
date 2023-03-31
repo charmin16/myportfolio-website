@@ -38,7 +38,7 @@ const ContactUs = () => {
                     <p className='font-libre'>
                        Pls feel free to reach me on any of my social media handles below.
                        Alternatively, you can send me a message using the form below. Looking 
-                       forward to hearing from you soon
+                       forward to hearing from you soon and thank you for stopping by.
                     </p>
                     <div className='pt-6 space-y-3'>
                         <div className='flex space-x-4 items-center'>
@@ -61,9 +61,14 @@ const ContactUs = () => {
                 </div>
                    
                 <div className='md:items-start md:mx-0 pt-6 md:space-x-6 space-x-4 '>
-                    <i className="fa-brands fa-linkedin fa-2x rounded-full text-green-500 cursor-pointer"></i>
-                    <i className="fa-brands fa-github fa-2x text-green-500 cursor-pointer"></i> 
-                    <i className="fa-brands fa-twitter fa-2x text-green-500 cursor-pointer"></i>
+                    
+                    <a href="https://www.linkedin.com/feed/" target='_blank'>
+                       <i className="fa-brands fa-linkedin fa-2x rounded-full text-green-500 cursor-pointer"></i>
+                    </a>
+                    <a href="https://github.com/charmin16" target='_blank'>
+                        <i className="fa-brands fa-github fa-2x text-green-500 cursor-pointer"></i> 
+                    </a>
+                    
                     <i className="fa-brands fa-facebook-f fa-2x text-green-500 cursor-pointer"></i>
                 </div>
             </div>

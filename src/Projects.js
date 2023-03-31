@@ -81,7 +81,7 @@ const Projects = () => {
         </div>
         <div className="lg:hidden w-[3em] h-[0.2em] mb-6 bg-[#c708a4]"></div>
         <p className='max-w-[90%] text-justify lg:hidden font-libre'>
-            A quiz web app developed to test user's knowledge in 
+            A quiz web app to test one's knowledge in 
             different non-academic subject areas. Each of the quiz 
             is timed and upon submission, the script is automatically marked and 
             the score is displayed.  
@@ -98,7 +98,7 @@ const Projects = () => {
         <div className="absolute bg-blu-900 left-[63%] top-[32%] py-2 
         px-4 shadow-2xl rounded-lg">
             <p className='hidden lg:block font-libre'>
-                 A quiz web app developed to test one's knowledge in 
+                 A quiz web app to test one's knowledge in 
                 non-academic subject areas. Each of the quiz 
                 is timed and upon submission, it is automatically marked and 
                 the score is displayed.  
@@ -139,8 +139,8 @@ const Projects = () => {
         <div className="lg:hidden w-[3em] h-[0.2em] mb-6 bg-[#c708a4]"></div>
         <p className='max-w-[90%] text-justify lg:hidden font-serif'>
             Countries web app I built using REST Countries API to pull 
-            down and display country data. You can search for any country 
-            of your choice or filter by region You can also switch from 
+            down and display country info. You can search for any country 
+            of your choice or filter by region. You can also switch from 
             light mode to dark mode and vice versa
         </p>
         
@@ -156,7 +156,7 @@ const Projects = () => {
         px-4 shadow-2xl rounded-lg">
             <p className='hidden lg:block'>
                 Countries web app I built using REST Countries API to pull 
-                down and display country data. You can search for any country 
+                down and display country info. You can search for any country 
                 of your choice or filter by region. <span className='md:hidden'> You can also switch from 
                 light mode to dark mode and vice versa</span>
             </p>
