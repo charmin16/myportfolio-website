@@ -33,9 +33,13 @@ const Projects = () => {
         
         <div className="lg:hidden flex justify-between w-[100%] mt-12 px-6">
             <a className='rounded-md bg-[#c708a4] py-1 px-2' 
-            href="https://github.com/charmin16/dictionary-app" target='_blank'><i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+            href="https://github.com/charmin16/dictionary-app" target='_blank'>
+                <button>Source Code</button>
+            </a>
             <a className='rounded-md bg-[#c708a4] py-1 px-2' 
-            href="https://dictionary-app-eta-bay.vercel.app/" target='_blank'><i className="fa-solid fa-arrow-up-right-from-square text-2xl cursor-pointer"></i></a>
+            href="https://dictionary-app-eta-bay.vercel.app/" target='_blank'>
+                <button>Visit Website</button>
+            </a>
         </div>
         
         {/* Project description section  */}
@@ -59,9 +63,11 @@ const Projects = () => {
         {/* GitHub and link to website  */}
         <div className="absolute right-0 top-[82%] bg-red-00 space-x-4 hidden lg:block">
             <a href="https://github.com/charmin16/dictionary-app" target='_blank'> 
-            <i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+            <button className='py-1 px-2 bg-red-500 rounded-md'>Source Code</button>
+            </a>
             <a href="https://dictionary-app-eta-bay.vercel.app/" target='_blank'>
-            <i className="fa-solid fa-arrow-up-right-from-square text-2xl cursor-pointer"></i></a> 
+            <button className='py-1 px-2 bg-red-500 rounded-md'>Visit Website</button>
+            </a> 
         </div>
        </div>
        
@@ -89,9 +95,11 @@ const Projects = () => {
         
         <div className="lg:hidden flex justify-between w-[100%] mt-12 px-6">
            <a className='rounded-md bg-[#c708a4] py-1 px-2' href="https://github.com/charmin16/Quiz-hub" target='_blank'> 
-            <i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+                <button>Source Code</button>
+            </a>
             <a className='rounded-md bg-[#c708a4] py-1 px-2' href="https://quiz-hub.vercel.app/" target='_blank'>
-            <i className="fa-solid fa-arrow-up-right-from-square text-2xl cursor-pointer"></i></a> 
+                <button>Visit Website</button>
+            </a> 
         </div>
         
         {/* Project description section  */}
@@ -115,9 +123,11 @@ const Projects = () => {
         {/* GitHub and link to website  */}
         <div className="absolute right-0 top-[82%] bg-red-00 space-x-4 hidden lg:block ">    
             <a href="https://github.com/charmin16/Quiz-hub" target='_blank'> 
-            <i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+                <button className='py-1 px-2 bg-red-500 rounded-md'>Source Code</button>
+            </a>
             <a href="https://quiz-hub.vercel.app/" target='_blank'>
-            <i className="fa-solid fa-arrow-up-right-from-square text-2xl cursor-pointer"></i></a> 
+                <button className='py-1 px-2 bg-red-500 rounded-md'>Visit Website</button>
+            </a> 
         </div>
        </div>
        
@@ -146,9 +156,11 @@ const Projects = () => {
         
         <div className="lg:hidden flex justify-between w-[100%] mt-12 px-6">
             <a className='rounded-md bg-[#c708a4] py-1 px-2' href="https://github.com/charmin16/All_countries" target='_blank'> 
-            <i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+                <button>Source Code</button>
+            </a>
             <a className='rounded-md bg-[#c708a4] py-1 px-2' href="https://all-countries-two.vercel.app/" target='_blank'>
-            <i className="fa-solid fa-arrow-up-right-from-square text-2xl cursor-pointer"></i></a> 
+                <button>Visit Website</button>
+            </a> 
         </div>
         
         {/* Project description section  */}
@@ -172,9 +184,11 @@ const Projects = () => {
         {/* GitHub and link to website  */}
         <div className="absolute right-0 top-[82%] bg-red-00 space-x-4 hidden lg:block">    
             <a href="https://github.com/charmin16/All_countries" target='_blank'> 
-            <i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+             <button className='py-1 px-2 bg-red-500 rounded-md'>Source Code</button>
+            </a>
             <a href="https://all-countries-two.vercel.app/" target='_blank'>
-            <i className="fa-solid fa-arrow-up-right-from-square text-2xl cursor-pointer"></i></a> 
+             <button className='py-1 px-2 bg-red-500 rounded-md'>Visit Website</button>
+            </a> 
         </div>
        </div>
       
@@ -202,9 +216,11 @@ const Projects = () => {
         
         <div className="lg:hidden flex justify-between w-[100%] mt-12 px-6">
            <a className='rounded-md bg-[#c708a4] py-1 px-2' href="https://github.com/charmin16/food_recipe" target='_blank'> 
-            <i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+                <button>Source Code</button>
+            </a>
             <a className='rounded-md bg-[#c708a4] py-1 px-2' href="https://food-recipe-31cr.vercel.app/" target='_blank'>
-            <i className="fa-solid fa-arrow-up-right-from-square text-2xl cursor-pointer"></i></a> 
+                <button>Visit Website</button>
+            </a> 
         </div>
         
         {/* Project description section  */}
@@ -227,9 +243,11 @@ const Projects = () => {
         {/* GitHub and link to website  */}
         <div className="absolute right-0 top-[82%] space-x-4 hidden lg:block">    
             <a href="https://github.com/charmin16/food_recipe" target='_blank'> 
-            <i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+             <button className='py-1 px-2 bg-red-500 rounded-md'>Source Code</button>
+            </a>
             <a href="https://food-recipe-31cr.vercel.app/" target='_blank'>
-            <i className="fa-solid fa-arrow-up-right-from-square text-2xl cursor-pointer"></i></a> 
+             <button className='py-1 px-2 bg-red-500 rounded-md'>Visit Website</button>
+            </a> 
         </div>
        </div>
       
