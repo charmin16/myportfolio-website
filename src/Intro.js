@@ -40,8 +40,8 @@ const Intro = () => {
               '>
                 <p id='hi' className='py-2 md:text-3xl text-2xl'>Hi, I am</p>
                 <p className="text-3xl sm:text-4xl md:text-5xl text-white  md:tracking-wide font-serif">Charming Princewill<span className='hidden md:inline'>..</span></p>
-                <p className='md:text-[2.4em] sm:text-2xl text-2xl px-3 opacity-80 text-white tracking-wide pt-2 sm:pt-3 pb-8 sm:pb-12 font-serif md:px-0 '>Frontend Developer/SEO Consultant</p>               
-                <p className='md:max-w-[60%] max-w-[90%] mx-auto md:mx-0 opacity-100 leading-6 tracking-wide text-center md:text-left lg:text-2xl text-xl sm:leading-8 sm:tracking-wide sm:pb-8 font-libre '>I am a software developer who specializes in building (and sometimes designing)
+                <p className='md:text-[2.4em] sm:text-2xl text-2xl px-3 opacity-80 text-white tracking-wide pt-2 sm:pt-3 pb-8 sm:pb-12 font-serif md:px-0 '>Frontend Developer/SEO Specialist</p>               
+                <p className='md:max-w-[60%] max-w-[90%] mx-auto md:mx-0 opacity-100 leading-6 tracking-wide text-center md:text-left lg:text-2xl text-xl sm:leading-8 sm:tracking-wide sm:pb-8 font-libre '>I am a software developer who specialize in building (and sometimes designing)
                 exceptional digital experiences. Excellence is my watchword! 
                 </p>
                 <button id='touch' className='py-2 sm:py-2 sm:px-6 px-6 mt-12 text-xl sm:text-xl'>

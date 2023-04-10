@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 const Technologies = () => {
-// #465902
+
 
     return (
     <div id='tech' className='w-[90%] md:w-[65%] mt-20 mx-auto pb-12'>

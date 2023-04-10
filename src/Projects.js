@@ -13,7 +13,7 @@ const Projects = () => {
           lg:block lg:items-start py-8 lg:py-8 shadow-2xl'>
         <img src="images/diction_gray.png" className='lg:w-[60%] lg:h-[20em] w-[90%] h-[12em]' />
         <div className="lg:block absolute right-0 top-[10%] bg-green-00">
-            <h1 className="text-red-500 hidden lg:block">Featured Project</h1>
+            <h1 className="text-[#c708a4] hidden lg:block">Featured Project</h1>
             <h1 className="text-2xl tracking-wider hidden lg:block">Dictionary</h1>
         </div>
         <h1 className="text-2xl pt-4 pb-2 lg:hidden">Dictionary</h1>
@@ -63,10 +63,10 @@ const Projects = () => {
         {/* GitHub and link to website  */}
         <div className="absolute right-0 top-[82%] bg-red-00 space-x-4 hidden lg:block">
             <a href="https://github.com/charmin16/dictionary-app" target='_blank'> 
-            <button className='py-1 px-2 bg-red-500 rounded-md'>Source Code</button>
+            <button className='py-1 px-2 bg-[#c708a4] rounded-md'>Source Code</button>
             </a>
             <a href="https://dictionary-app-eta-bay.vercel.app/" target='_blank'>
-            <button className='py-1 px-2 bg-red-500 rounded-md'>Visit Website</button>
+            <button className='py-1 px-2 bg-[#c708a4] rounded-md'>Visit Website</button>
             </a> 
         </div>
        </div>
@@ -77,7 +77,7 @@ const Projects = () => {
           lg:block lg:items-start py-8 lg:py-8 shadow-2xl shadow-slate-00'>
         <img src="images/quizphoto.png" className='lg:w-[60%] lg:h-[20em] w-[90%] h-[12em]' />
         <div className="lg:block absolute right-0 top-[10%] bg-green-00">
-            <h1 className="text-red-500 hidden lg:block">Featured Project</h1>
+            <h1 className="text-[#c708a4] hidden lg:block">Featured Project</h1>
             <h1 className="text-2xl tracking-wider hidden lg:block">QuizHub</h1>
         </div>
         <h1 className="text-2xl pt-3 pb-3 lg:hidden ">QuizHub</h1>
@@ -123,10 +123,10 @@ const Projects = () => {
         {/* GitHub and link to website  */}
         <div className="absolute right-0 top-[82%] bg-red-00 space-x-4 hidden lg:block ">    
             <a href="https://github.com/charmin16/Quiz-hub" target='_blank'> 
-                <button className='py-1 px-2 bg-red-500 rounded-md'>Source Code</button>
+                <button className='py-1 px-2 bg-[#c708a4] rounded-md'>Source Code</button>
             </a>
             <a href="https://quiz-hub.vercel.app/" target='_blank'>
-                <button className='py-1 px-2 bg-red-500 rounded-md'>Visit Website</button>
+                <button className='py-1 px-2 bg-[#c708a4] rounded-md'>Visit Website</button>
             </a> 
         </div>
        </div>
@@ -137,7 +137,7 @@ const Projects = () => {
           lg:block lg:items-start py-8 lg:py-8 shadow-2xl shadow-slate-00'>
         <img src="images/countryguide2.png" className='lg:w-[60%] lg:h-[20em] w-[90%] h-[12em]' />
         <div className="lg:block absolute right-0 top-[10%] bg-green-00">
-            <h1 className="text-red-500 hidden lg:block">Featured Project</h1>
+            <h1 className="text-[#c708a4] hidden lg:block">Featured Project</h1>
             <h1 className="text-2xl tracking-wider hidden lg:block">Country Guide</h1>
         </div>
         <h1 className="text-2xl pt-3 pb-3 lg:hidden ">Country Guide</h1>
@@ -184,10 +184,10 @@ const Projects = () => {
         {/* GitHub and link to website  */}
         <div className="absolute right-0 top-[82%] bg-red-00 space-x-4 hidden lg:block">    
             <a href="https://github.com/charmin16/All_countries" target='_blank'> 
-             <button className='py-1 px-2 bg-red-500 rounded-md'>Source Code</button>
+             <button className='py-1 px-2 bg-[#c708a4] rounded-md'>Source Code</button>
             </a>
             <a href="https://all-countries-two.vercel.app/" target='_blank'>
-             <button className='py-1 px-2 bg-red-500 rounded-md'>Visit Website</button>
+             <button className='py-1 px-2 bg-[#c708a4] rounded-md'>Visit Website</button>
             </a> 
         </div>
        </div>
@@ -198,7 +198,7 @@ const Projects = () => {
          lg:block lg:items-start py-8 lg:py-8 shadow-2xl shadow-slate-00'>
         <img src="images/food_recipe.png" className='lg:w-[60%] lg:h-[20em] w-[90%] h-[12em]' />
         <div className="lg:block absolute right-0 top-[10%] bg-green-00">
-            <h1 className="text-red-500 hidden lg:block">Featured Project</h1>
+            <h1 className="text-[#c708a4] hidden lg:block">Featured Project</h1>
             <h1 className="text-2xl tracking-wider hidden lg:block">Food Recipe</h1>
         </div>
         <h1 className="text-2xl pt-3 pb-1 lg:hidden ">Food Recipe</h1>
@@ -243,10 +243,10 @@ const Projects = () => {
         {/* GitHub and link to website  */}
         <div className="absolute right-0 top-[82%] space-x-4 hidden lg:block">    
             <a href="https://github.com/charmin16/food_recipe" target='_blank'> 
-             <button className='py-1 px-2 bg-red-500 rounded-md'>Source Code</button>
+             <button className='py-1 px-2 bg-[#c708a4] rounded-md'>Source Code</button>
             </a>
             <a href="https://food-recipe-31cr.vercel.app/" target='_blank'>
-             <button className='py-1 px-2 bg-red-500 rounded-md'>Visit Website</button>
+             <button className='py-1 px-2 bg-[#c708a4] rounded-md'>Visit Website</button>
             </a> 
         </div>
        </div>

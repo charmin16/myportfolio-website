@@ -9,6 +9,8 @@ import Services from './Services';
 import Skills from './Skills';
 import Technologies from './Technologies';
 
+// git push -u origin main
+
 function App() {
   return (
     <div id='aps' className="bg-color">
